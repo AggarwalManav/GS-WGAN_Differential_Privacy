@@ -4,7 +4,7 @@
 This repository contains the implementation for [GS-WGAN: A Gradient-Sanitized Approach for Learning Differentially Private Generators (NeurIPS 2020)](https://arxiv.org/abs/2006.08265).
 
 ## Setup
-If access to a supercomputer is possible follow the steps below. Else, we need to prevent any lack in quality of training the frameworks and thus it is highly recommended to proceed with Transfer Learning.
+If access to a supercomputer is possible follow the steps below. Contrarily, we need to prevent any lack of quality in training the frameworks and thus it is highly recommended to proceed with Transfer Learning.
 
 You can download the pre-trained models using the links [below](#pre-trained-models). 
 
