@@ -102,6 +102,8 @@ The pre-trained models are stored as `.pth` files and the corresponding training
 ## Setup for Transfer Learning Approach
 As a reference to the environment I have added the environment [yml file](https://github.com/AggarwalManav/GS-WGAN_Differential_Privacy/blob/main/environment_droplet.yml) as in a conda environment via the `condacolab` library.
 - Link to the library guide : [condacolab](https://saturncloud.io/blog/how-to-install-conda-package-to-google-colab/)
+
+
 Although, colab has an inbuilt capable environment and you can directly begin with the steps below.<br>
 For training with pretrained discriminators: you could run the training script (i.e., `source/main.py`) by specifying the `--load_dir` to be the directory where you store the downloaded pretrained discriminators (it could be like `'results/mnist/pretrain/ResNet_default'`):
 - Download the pre-trained models and form a folder hierarchy in your google drive identical to the [drive link](https://drive.google.com/drive/folders/1zOq3j9sgb3a6ckE7CYdVuoQTgI6C-ogo?usp=sharing) shared and place the downloaded models in their respective places.
