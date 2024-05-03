@@ -105,12 +105,14 @@ As a reference to the environment I have added the environment [yml file](https:
 
 
 Although, colab has an inbuilt capable environment and you can directly begin with the steps below.<br>
+
+
 For training with pretrained discriminators: you could run the training script (i.e., `source/main.py`) by specifying the `--load_dir` to be the directory where you store the downloaded pretrained discriminators (it could be like `'results/mnist/pretrain/ResNet_default'`):
 - Download the pre-trained models and form a folder hierarchy in your google drive identical to the [drive link](https://drive.google.com/drive/folders/1zOq3j9sgb3a6ckE7CYdVuoQTgI6C-ogo?usp=sharing) shared and place the downloaded models in their respective places.
 - Now download and upload the shared [colab implementation](https://github.com/AggarwalManav/GS-WGAN_Differential_Privacy/blob/main/GS-WGANs_Colab_Implementation.ipynb) on your drive.
 - You are now ready with all the tools.
 - Go ahead and run the code which has stepwise implementation of all terminal functions. Achieved results can be viewed in the drive folders formed as well.
 
-Note: It is suggested to replicate it according to the drive link provided.<br>Be sure to modify file addresses in the code as per variations in your folder hierarchy. 
+Note: It is suggested to replicate the folder structures according to the drive link provided, but be sure to modify file addresses in the code as per variations in your folder hierarchy. 
 
 
